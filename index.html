@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gear Ratio Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+    <h1>Gear Ratio Simulator</h1>
+
+    <label>Gear 1 Teeth:</label>
+    <input type="number" id="gear1" min="1" value="10">
+
+    <label>Gear 2 Teeth:</label>
+    <input type="number" id="gear2" min="1" value="20">
+
+    <button onclick="calculate()">Calculate</button>
+ <!-- Output box inside container -->
+    <div id="output-box">
+        <p id="output"></p>
+    </div>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
